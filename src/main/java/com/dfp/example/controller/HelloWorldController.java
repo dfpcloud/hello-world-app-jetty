@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldController {
     @GetMapping
-    @RequestMapping("/")
+    @RequestMapping("/hello")
     public String helloServer() {
 
-        return "Hello!! Greetings from DFP. You have successfully deployed your first Spring boot application with DFP cloud platform!\n" +
-                "      You can modify the code in this repository to build your app.";
+        return "{\"version\":\"v1.0\",\n" +
+                "\"msg\":\"Hello!! Greetings from DFP. You have successfully deployed your first Spring boot application with DFP cloud platform!\"}";
     }
 
 }
