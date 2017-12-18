@@ -1,5 +1,8 @@
 target/
 !.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+hello-world-app.iml
 
 ### STS ###
 .apt_generated
@@ -14,6 +17,7 @@ target/
 *.iws
 *.iml
 *.ipr
+.mvn
 
 ### NetBeans ###
 nbproject/private/
